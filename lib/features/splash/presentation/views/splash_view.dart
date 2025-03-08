@@ -15,6 +15,11 @@ class SplashView extends StatelessWidget {
       //     //this approach also allows you to add whatsoever needed (blocbuilders for instance) in the page without much clutter
       //   ],
       // ),
+
+      // backgroundColor: Color(0xff100B20),
+      //yet this is supposed to be the united background color all over the application.
+      //so it doesn't make sense for me to have it hardcoded in each scaffold's backgroundColor.
+      //instead override the default scaffold backgroundColor in the main file and use it.
       body: SplashViewBody(),
     );
   }
